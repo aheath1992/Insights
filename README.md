@@ -1,0 +1,2 @@
+# Insights
+Instights Ansible Collection
