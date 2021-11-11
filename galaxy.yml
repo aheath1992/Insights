@@ -5,10 +5,10 @@
 namespace: aheath1992
 
 # The name of the collection. Has the same character restrictions as 'namespace'
-name: Insights
+name: insights
 
 # The version of the collection. Must be compatible with semantic versioning
-version: 1.0.0
+version: 1.0.1
 
 # The path to the Markdown (.md) readme file. This path is relative to the root of the collection
 readme: README.md
@@ -21,7 +21,7 @@ authors:
 
 ### OPTIONAL but strongly recommended
 # A short summary description of the collection
-description: your collection description
+description: Ansible modules that will allow the creation and deletion of groups, and assigning users to groups.
 
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
@@ -30,7 +30,7 @@ license:
 
 # The path to the license file for the collection. This path is relative to the root of the collection. This key is
 # mutually exclusive with 'license'
-license_file: 'LICENSE'
+license_file: ''
 
 # A list of tags you want to associate with the collection for indexing/searching. A tag name has the same character
 # requirements as 'namespace' and 'name'
@@ -43,7 +43,7 @@ tags: []
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://github.com/aheath1992/Insights
+repository: https://github.com/aheath1992/insights
 
 # The URL to any online docs
 documentation: http://docs.example.com
